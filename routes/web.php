@@ -17,4 +17,10 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
-Route::view('/','client.dashboard.index');
+
+
+Route::view('/','client.layout.home');
+Route::view('about','client.layout.about');
+Route::view('service','client.layout.service');
+Route::view('project','client.layout.project');
+Route::view('contact','client.layout.contact');
